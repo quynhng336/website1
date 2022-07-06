@@ -5,3 +5,57 @@
 .nav a{
     padding: 15px 20px;
 }
+
+table{
+    border: solid;
+    width: 99%;
+    margin: 10px;
+}
+tr{
+    border: solid;
+    border-width: 1px 0;
+    border-right: 1px solid black;
+}
+td , th{
+    border-left: 1px solid black;
+}
+
+td{
+    font-size: 12px;
+}
+
+/* #div1{
+    background-color: lightblue;
+} */
+
+.grid{
+    width: 1000px; 
+    height: 300px;
+    display: grid;
+    background-color: lightblue;
+    grid-template-columns: repeat(3, 50px);
+    grid-template-rows: repeat(3, 50px);
+    gap: 20px;
+    
+}
+/* .a , .b, .c {
+    background-color: lightgreen;
+   
+} */
+.a{
+    background-color: lightgreen;
+    grid-area: 2 / 2 / span 2 / span 2;
+}
+.b{
+    background-color: lightgreen;
+    grid-area: 2 / 4 / span 2 / span 1;
+}
+.c{
+    background-color: lightgreen;
+    /* grid-area: 2 / 5/ 4 / 6; */
+}
+
+img{
+    width: 200px;
+    height:200px;
+}
